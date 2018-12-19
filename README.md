@@ -17,6 +17,9 @@ In the mbed project,
 mbed add https://github.com/sabmeua/heap_ext_DISCO_F746NG.git
 ```
 
+That's it.
+When heap_ext.cpp will be linked, SDRAM is used for heap.
+
 # Sample project
 
 This is a sample mbed project that allocates memory using this library.
